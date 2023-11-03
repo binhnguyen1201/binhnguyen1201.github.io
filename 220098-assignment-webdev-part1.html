@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content="width = auto, initial-scale=-1, height = auto, initial-scale = 1.0, maximum-scale = 1.0">
+    <link rel='stylesheet' href='style.css'>
+    <title>This is Binh Nguyen</title>
+    <style>
+        .body{
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .navbar {
+            background-color: rgb(222, 170, 92);
+            overflow: hidden;
+            padding: 17px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .navbar a {
+            float: left;
+            display: block;
+            color: rgb(8, 7, 6);
+            background-color: rgb(222, 170, 92);
+            text-align: center;
+            padding: 26px 16px;
+            font-family:cursive;
+            font-size: 34px;
+            font-weight: bolder;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+        .navbar a:hover {
+            background-color: #d2ae1b;
+            color: black;
+            margin-inline-start: 1.5cqmin;
+            margin-inline-end: 0cqmax;
+        }
+
+        .about table {
+            background-color: antiquewhite;
+            border-style: groove;
+        }
+
+        .content-container {
+            display: flex;
+            background-color: cornsilk;
+            margin-top: -10px;
+            margin-left: 140px;
+            margin-right: 140px;
+            font-size: 14px;
+            text-align: left;
+            font-family: cursive;
+            height: 630px;
+            line-height: 30px;
+
+        }
+        .content-container p, header, img, about{
+            margin-left: 40px;
+            margin-right: 40px;
+        }
+
+        .column{
+            flex:1;
+            padding:1px;
+            width: device-width;
+        }
+        .contact-info {
+            background-color: rgb(222, 170, 92);
+            color: black;
+            padding: 10px 0;
+            position: absolute;
+            bottom: 0;
+            margin-left: -140px;;
+            width: 98.95vw;
+            text-align: center;
+            font-family: cursive;
+            font-size: 14px;
+        }
+        .contact-info a{
+            margin-right: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div style="background-color: rgb(222, 170, 92);">
+        <div class="navbar">
+            <a>About me</a>
+            <a href="https://photos.app.goo.gl/F5Gyv8zmTy4wge2z5">Gallery</a>
+        </div>
+        <div class="content-container">
+            <div class="column">
+                <header>
+                    <h2>Binh Nguyen - An Ambitious Food Blogger</h2>
+                    <img src="Design.png" width="300" height="300" />
+                    <p>Join me on a unique culinary journey. This website is my application to the world of food critique. I'm curating an online gallery filled with flavors, recipes, and gastronomic adventures. Whether you're a pro chef or a newbie, discover inspiration and mouthwatering recipes. Let's explore the art of cooking and savor global delights.</p>
+                </header>
+            </div>
+            <div class="column">
+                <section id='about'>
+                    <h2><b>About me:</b></h2>
+                    <table border="1">
+                        <tr>
+                            <td><b>Name:</b></td>
+                            <td>Nguyen Thanh Binh (Binh)</td>
+                        </tr>
+                        <tr>
+                            <td><b>Date of Birth:</b></td>
+                            <td>January 12, 2004</td>
+                        </tr>
+                        <tr>
+                            <td><b>Education:</b></td>
+                            <td>Fulbright University Vietnam</td>
+                        </tr>
+                        <tr>
+                            <td><b>Address:</b></td>
+                            <td>Docklands Saigon</td>
+                        </tr>
+                    </table>
+                </section>
+                <section id="Portfolio">
+                    <h2><b>Prior Experience...</b></h2>
+                    <ul>
+                        <li>2 years member of Gier Camera Club</li>
+                        <li>Gold Tier member of GrabFood and BepCuaMe restaurant</li>
+                        <li>Founder of recipes have been recognized by friends and family members</li>
+                        <ul>
+                            <li>Fuji Rice-noodle</li>
+                            <li>Limy Cheesecake</li>
+                            <li>Papa MeatCake</li>
+                        </ul>
+                    </ul>
+                </section>
+            </div>
+            <div class = 'contact-info'>
+                <a href="https://www.facebook.com/YourFacebookProfile" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="blue" class="bi bi-facebook" viewBox="0 0 16 16">
+                        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                    </svg>
+                </a>
+                <a href="mailto: thbinh.0104vn@gmail.com">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="red" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                        <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/>
+                    </svg>
+                </a>
+                <p><b>Miss Binh: </b>+84 346404502 (thbinh.0104vn@gmail.com)</p>
+                <form id = 'contactForm'>
+                    Username: <input type="text" name = 'name'>
+                    Your Email: <input type = "email" name = "mail" required>
+                    <br>
+                    Content: <input type = 'text' name = 'content' required>
+                    <input type="submit" value = "Submit" onclick="my_function()">
+                </form>
+            </div>
+            <script>
+                function my_function(){
+                    alert("Message received. Thank you, " + name + "! We will reach you as soon as possible.");
+                    document.getElementById('contactForm').reset();
+                }
+            </script>
+</body>
+</html>
+<php></php>
